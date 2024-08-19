@@ -45,7 +45,7 @@ const Navbar = () => {
     <>
 
       <div className="bg-white">
-        <header className="inset-x-0 top-0 z-50 bg-white shadow-md m-auto w-full sm:w-full lg:w-10/12 xxl:w-8/12">
+        <header className="inset-x-0 top-0 z-50 bg-white shadow-md m-auto w-full sm:w-full lg:w-12/12 xl:w-10/12">
           <nav className=" flex items-center justify-between p-6 lg:px-8" aria-label="Global">
 
             {/* Logo_section */}
