@@ -61,7 +61,9 @@ const Navbar = () => {
                 </button>
               </div>
               <a href="#" className=" w-[100px] lg:-m-1.5 p-1.5 lg:w-[200px]">
+                <Link to="/">
                 <img src={Logo} className='' alt="" />
+                </Link>
               </a>
 
             </div>

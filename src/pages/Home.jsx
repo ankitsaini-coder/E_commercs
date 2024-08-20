@@ -72,10 +72,6 @@ const Home = (item) => {
     slidesToScroll: 1
   };
 
-
-
-
-
   return (
     <Layout>
 
@@ -197,9 +193,9 @@ const Home = (item) => {
       {/* Dress__section */}
       <div className="w-11/12 p-6  lg:w-8/12 m-auto bg-[#F2F0F1] mt-36 lg:p-12 mb-16 rounded-3xl">
         <h1 className="text-center text-4xl font-black">BROWSE BY DRESS STYLE</h1>
-        <div className=" lg:flex items-center gap-4 mt-10 justify-center">
-          <img className="hidden lg:block" src={Casual} alt="" />
-          <img className="hidden lg:block" src={Formal} alt="" />
+        <div className=" md:flex items-center gap-4 mt-10 justify-center">
+          <img className="hidden md:block md:w-[40%] md:h-[230px]" src={Casual} alt="" />
+          <img className="hidden md:block md:w-[60%] md:h-[230px]" src={Formal} alt="" />
           <div className="md:hidden lg:hidden">
             <img className="" src={Casual_m} alt="" />
             <img className="mt-4" src={Formal_m} alt="" />
@@ -208,11 +204,27 @@ const Home = (item) => {
           </div>
 
         </div>
-        <div className="flex items-center gap-4 mt-4 justify-center">
-          <img className="hidden lg:block" src={Party} alt="" />
-          <img className="hidden lg:block" src={Gym} alt="" />
+        <div className="md:flex items-center gap-4 mt-4 justify-center">
+          <img className="hidden md:block md:w-[60%] md:h-[230px]" src={Party} alt="" />
+          <img className="hidden md:block md:w-[40%] md:h-[230px]" src={Gym} alt="" />
         </div>
       </div>
+
+      {/* <div className="w-8/12 mx-auto bg-[#F2F0F1] rounded-3xl p-12 mt-36 mb-16">
+      <h1 className="text-center text-4xl font-black">BROWSE BY DRESS STYLE</h1>
+      <div className="w-full mt-10">
+        <div className="flex justify-start gap-4">
+        <img className="hidden lg:block lg:w-[350px]" src={Casual} alt="" />
+          <img className="hidden lg:block lg:w-[500px]" src={Formal} alt="" />
+        </div>
+        <div className="flex justify-start gap-4 mt-4">
+        <img className="hidden lg:block lg:w-[500px]" src={Party} alt="" />
+          <img className="hidden lg:block lg:w-[350px]" src={Gym} alt="" />
+        </div>
+      </div>
+      </div> */}
+
+
       {/* CUSTOMERS_section */}
       <div className="w-full px-4 md:px-0">
         <div className='w-full md:w-8/12 m-auto'>
