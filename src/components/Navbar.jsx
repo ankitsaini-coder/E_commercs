@@ -78,7 +78,7 @@ const Navbar = () => {
               ))}
               <div className='w-[350px] rounded-full flex items-center py-2 px-4  bg-[#F0F0F0] gap-[2px]'>
                 <CiSearch className='text-xl font-semibold' />
-                <input className='bg-[#F0F0F0] w-full outline-none border-0' placeholder='Search For Products...' type="text" />
+                <input className='bg-[#F0F0F0] w-full outline-none border-0 focus:outline-none' placeholder='Search For Products...' type="text" />
               </div>
             </div>
 
