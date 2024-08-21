@@ -127,26 +127,26 @@ const Home = (item) => {
       {/* cards_section */}
       <div className="w-full bg-white mt-8 ">
         <h1 className="text-center text-4xl font-black">NEW ARRIVALS</h1>
-        <div className="w-[1000px] md:gap-3 overflow-x-scroll lg:w-8/12 m-auto mt-8 md:flex justify-between ">
-          <div className="w-[295px] mb-4 md:mb-0">
+        <div className="w-[100%] md:gap-3 overflow-x-scroll lg:w-8/12 m-auto mt-8 md:flex justify-between ">
+          <div className="w-[295px] mx-auto mb-4 md:mb-0">
             <img className="w-full" src={Shirt_1} alt="" />
             <h3 className="text-sm mt-2 font-bold">T-SHIRT WITH TAPE DETAILS</h3>
             <img className="mt-1" src={Star} alt="" />
             <h2 className="mt-1 font-bold text-2xl">$120</h2>
           </div>
-          <div className="w-[295px] mb-4 md:mb-0">
+          <div className="w-[295px] mx-auto mb-4 md:mb-0">
             <img className="w-full" src={Shirt_2} alt="" />
             <h3 className="text-sm mt-2 font-bold capitalize">SKINNY FIT JEANS</h3>
             <img className="mt-1" src={Star_2} alt="" />
             <h2 className="mt-1 font-bold text-2xl flex items-center gap-2">$120 <img src={Tow_2} alt="" /> <img src={Tow} alt="" /> </h2>
           </div>
-          <div className="w-[295px] mb-4 md:mb-0">
+          <div className="w-[295px] mx-auto mb-4 md:mb-0">
             <img src={Shirt_4} alt="" />
             <h3 className="text-sm mt-2 font-bold capitalize">CHECKERED SHIRT</h3>
             <img className="mt-1" src={Star} alt="" />
             <h2 className="mt-1 font-bold text-2xl">$180</h2>
           </div>
-          <div className="w-[295px]">
+          <div className="w-[295px] mx-auto">
             <img src={Shirt_3} alt="" />
             <h3 className="text-sm mt-2 font-bold capitalize">SLEEVE STRIPED T-SHIRT</h3>
             <img className="mt-1" src={Star} alt="" />
