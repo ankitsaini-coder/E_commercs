@@ -160,26 +160,26 @@ const Home = (item) => {
       {/* cards_section_2 */}
       <div className="w-full bg-white mt-36">
         <h1 className="text-center text-4xl font-black uppercase">top selling</h1>
-        <div className="w-[1000px] gap-3  lg:w-8/12 m-auto mt-8 flex justify-between">
-          <div className="w-[295px]">
+        <div className="w-[100%] md:gap-3 overflow-x-scroll lg:w-8/12 m-auto mt-8 md:flex justify-between ">
+          <div className="w-[295px] mx-auto mb-4 md:mb-0">
             <img src={Top_img1} alt="" />
             <h3 className="text-sm mt-2 font-bold">VERTICAL STRIPED SHIRT</h3>
             <img className="mt-1" src={Top_star} alt="" />
             <h2 className="mt-1 font-bold text-2xl flex items-center gap-2">$212 <img src={Top_towsix} alt="" /> <img src={Tow} alt="" /> </h2>
           </div>
-          <div className="w-[295px]">
+          <div className="w-[295px] mx-auto mb-4 md:mb-0">
             <img src={Top_img2} alt="" />
             <h3 className="text-sm mt-2 font-bold">COURAGE GRAPHIC T-SHIRT</h3>
             <img className="mt-1" src={Top_selling_1} alt="" />
             <h2 className="mt-1 font-bold text-2xl">$145</h2>
           </div>
-          <div className="w-[295px]">
+          <div className="w-[295px] mx-auto mb-4 md:mb-0">
             <img src={Top_img3} alt="" />
             <h3 className="text-sm mt-2 font-bold">LOOSE FIT BERMUDA SHORTS</h3>
             <img className="mt-1" src={Top_selling_tow} alt="" />
             <h2 className="mt-1 font-bold text-2xl">$80</h2>
           </div>
-          <div className="w-[295px]">
+          <div className="w-[295px] mx-auto">
             <img src={Top_img4} alt="" />
             <h3 className="text-sm mt-2 font-bold">FADED SKINNY JEANS</h3>
             <img className="mt-1" src={Star} alt="" />
