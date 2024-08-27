@@ -232,14 +232,11 @@ const Home = (item) => {
           <div className=''>
             <Slider {...settings}>
               {data.map((d) => (
-                <div className='bg-white h-auto text-black p-4 border-[1px] border-gray-200 rounded-xl'>
-                  <div className=' h-auto '>
+                <div className=' h-auto text-black p-4 border-[1px] border-gray-200 rounded-xl'>
                     <img src={Happy} alt="" className='w-[140px]' />
-                  </div>
-                  <div className=''>
                     <p className='text-md font-semibold flex justify-start items-center my-2'>{d.name} <img src={Right_icon} alt="" /></p>
                     <p className="text-sm font-extralight text-gray-500">{d.review}</p>
-                  </div>
+                  
                 </div>
               ))}
             </Slider>
