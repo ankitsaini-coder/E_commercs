@@ -91,7 +91,7 @@ function Product() {
               </div>
 
               <div className='flex justify-between gap-2 mt-3'>
-                <div className='flex items-center justify-center bg-gray-200 px-3 rounded-full'>
+                <div className='flex items-center justify-center w-[200px] bg-gray-200 px-3 rounded-full'>
                 <GoTag />
                 <input className='border-0 bg-gray-200 rounded-full focus:outline-none' type="text" placeholder='Add promo code' />
                 </div>
