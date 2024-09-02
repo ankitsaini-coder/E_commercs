@@ -191,7 +191,7 @@ function Footer() {
         <MdOutlineEmail className='text-lg' />
           <input type="text" className="w-full outline-none border-0 placeholder:text-sm" placeholder="Enter your email address"/>
         </div>
-        <button className=" w-full  py-2 rounded-full px-4 bg-white mt-4 text-lg">Subscribe to Newsletter</button>
+        <button className=" w-full  py-2 rounded-full px-4 bg-white mt-4 text-[16px] md:text-lg">Subscribe to Newsletter</button>
       </div>
     </div>
 </div>
