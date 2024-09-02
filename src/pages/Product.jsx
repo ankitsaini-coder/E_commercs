@@ -95,9 +95,9 @@ function Product() {
                 <GoTag />
                 <input className='border-0 bg-gray-200 rounded-full focus:outline-none' type="text" placeholder='Add promo code' />
                 </div>
-                <button className='bg-black text-white border-0 w-[100px] rounded-full'>Apply</button>
+                <button className='bg-black text-white border-0 w-[100px] rounded-full hover:bg-gray-200 duration-300 hover:text-black'>Apply</button>
               </div>
-              <button className='w-full bg-black text-white mt-5 rounded-full py-4 flex justify-center items-center gap-2'>Go to Checkout <FaArrowRight /> </button>
+              <button className='w-full bg-black text-white mt-5 rounded-full py-4 flex justify-center items-center gap-2 hover:bg-gray-200 duration-300 hover:text-black'>Go to Checkout <FaArrowRight /> </button>
               </div>
           </div>
         </div>
